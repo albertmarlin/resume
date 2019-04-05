@@ -1,0 +1,106 @@
+body{
+	background-color: rgb(111, 21, 226);
+	color: white;
+	margin: 0;
+	z-index: 0;
+}
+.container{
+	padding: 0;
+}
+.toggle_overlay{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 1;
+}
+.toggle_overlay > .row{
+	margin: 0;
+}
+.toggle_warp{
+	background: white;
+	color: rgb(111, 21, 226);
+}
+.warp_box{
+	border: solid 1px white;
+	background: #f2f2f2;
+	color: rgb(111, 21, 226);
+	font-size: 1.5rem;
+}
+.warp_box_active{
+	color: white;
+	background-color: rgb(111, 21, 226);
+}
+.warp_toggle_icon{
+	padding-top: 90px;
+	padding-bottom: 90px; 
+}
+.warp_box:hover{
+	background-color: rgb(111, 21, 226);
+	color: white;
+	transition: 0.5s;
+}
+#exit_logo:hover{
+	color: red;
+}
+#menu_icon:hover, #exit_logo:hover{
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	animation: rotate-center 0.6s ease-in-out both;
+}
+.profile_name_image {
+	padding-bottom: 90px;
+}
+.profile_name_image img{
+	border-radius: 50%;
+	width: 70%;
+	height: 70%;
+}
+.section-background{
+	background-color: #5a07c3;
+}
+.information_section{
+	padding: 0;
+}
+.information_section td, .education_section td{
+	padding-right: 30px;
+	padding-bottom: 5px;
+}
+.section_icon{
+	border-radius: 50%;
+	background-color: #6f15e2;
+	width: 45px;
+	height: 45px;
+}
+.section_icon i{
+	padding: 16px;
+}
+.section_border{
+	border-top: solid 5px #8944e8;
+}
+.btn-custom{
+	background: #6f15e2;
+	border-radius: 50px;
+}
+.objective_section_content{
+	padding-bottom: 20px;
+}
+.progress_bar_section{
+	padding-bottom: 30px;
+}
+.progress{
+	border-radius: 50px;
+}
+/*.education_margin{
+	margin-top: 24px;
+}*/
+.progress-bar{
+	color: white;
+	background-color: #6f15e2;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
